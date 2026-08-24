@@ -1,0 +1,20 @@
+.env
+.DS_Store
+
+# Go
+bin/
+coverage.out
+
+# Frontend
+web/node_modules/
+web/dist/
+web/.vite/
+
+# Local data
+.data/
+
+# Local configuration and operating-system files
+.env
+.env.*
+!.env.example
+.DS_Store
